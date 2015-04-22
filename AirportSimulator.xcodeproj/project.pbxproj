@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21C3D4FF1AE765D500C5502B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 21C3D4F91AE765D500C5502B /* main.c */; };
-		21C3D5001AE765D500C5502B /* simlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 21C3D4FB1AE765D500C5502B /* simlib.c */; };
+		21C3D5051AE7671A00C5502B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 21C3D5011AE7671A00C5502B /* main.c */; };
+		21C3D5061AE7671A00C5502B /* simlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 21C3D5021AE7671A00C5502B /* simlib.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +25,10 @@
 
 /* Begin PBXFileReference section */
 		21C3D4ED1AE7657A00C5502B /* AirportSimulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AirportSimulator; sourceTree = BUILT_PRODUCTS_DIR; };
-		21C3D4F91AE765D500C5502B /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = "../../../Dropbox/Faculdade/UA/Spring/CS480/Final Project/Final Project/Final Project/main.c"; sourceTree = "<group>"; };
-		21C3D4FB1AE765D500C5502B /* simlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = simlib.c; path = "../../../Dropbox/Faculdade/UA/Spring/CS480/Final Project/Final Project/Final Project/simlib.c"; sourceTree = "<group>"; };
-		21C3D4FC1AE765D500C5502B /* simlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = simlib.h; path = "../../../Dropbox/Faculdade/UA/Spring/CS480/Final Project/Final Project/Final Project/simlib.h"; sourceTree = "<group>"; };
-		21C3D4FD1AE765D500C5502B /* simlibdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = simlibdefs.h; path = "../../../Dropbox/Faculdade/UA/Spring/CS480/Final Project/Final Project/Final Project/simlibdefs.h"; sourceTree = "<group>"; };
+		21C3D5011AE7671A00C5502B /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		21C3D5021AE7671A00C5502B /* simlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = simlib.c; sourceTree = "<group>"; };
+		21C3D5031AE7671A00C5502B /* simlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simlib.h; sourceTree = "<group>"; };
+		21C3D5041AE7671A00C5502B /* simlibdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simlibdefs.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +61,10 @@
 		21C3D4EF1AE7657A00C5502B /* AirportSimulator */ = {
 			isa = PBXGroup;
 			children = (
-				21C3D4F91AE765D500C5502B /* main.c */,
-				21C3D4FB1AE765D500C5502B /* simlib.c */,
-				21C3D4FC1AE765D500C5502B /* simlib.h */,
-				21C3D4FD1AE765D500C5502B /* simlibdefs.h */,
+				21C3D5011AE7671A00C5502B /* main.c */,
+				21C3D5021AE7671A00C5502B /* simlib.c */,
+				21C3D5031AE7671A00C5502B /* simlib.h */,
+				21C3D5041AE7671A00C5502B /* simlibdefs.h */,
 			);
 			path = AirportSimulator;
 			sourceTree = "<group>";
@@ -125,8 +125,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21C3D5001AE765D500C5502B /* simlib.c in Sources */,
-				21C3D4FF1AE765D500C5502B /* main.c in Sources */,
+				21C3D5051AE7671A00C5502B /* main.c in Sources */,
+				21C3D5061AE7671A00C5502B /* simlib.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

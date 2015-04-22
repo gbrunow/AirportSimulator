@@ -1,0 +1,250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21C3D4FF1AE765D500C5502B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 21C3D4F91AE765D500C5502B /* main.c */; };
+		21C3D5001AE765D500C5502B /* simlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 21C3D4FB1AE765D500C5502B /* simlib.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		21C3D4EB1AE7657A00C5502B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		21C3D4ED1AE7657A00C5502B /* AirportSimulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AirportSimulator; sourceTree = BUILT_PRODUCTS_DIR; };
+		21C3D4F91AE765D500C5502B /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = "../../../Dropbox/Faculdade/UA/Spring/CS480/Final Project/Final Project/Final Project/main.c"; sourceTree = "<group>"; };
+		21C3D4FB1AE765D500C5502B /* simlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = simlib.c; path = "../../../Dropbox/Faculdade/UA/Spring/CS480/Final Project/Final Project/Final Project/simlib.c"; sourceTree = "<group>"; };
+		21C3D4FC1AE765D500C5502B /* simlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = simlib.h; path = "../../../Dropbox/Faculdade/UA/Spring/CS480/Final Project/Final Project/Final Project/simlib.h"; sourceTree = "<group>"; };
+		21C3D4FD1AE765D500C5502B /* simlibdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = simlibdefs.h; path = "../../../Dropbox/Faculdade/UA/Spring/CS480/Final Project/Final Project/Final Project/simlibdefs.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21C3D4EA1AE7657A00C5502B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21C3D4E41AE7657A00C5502B = {
+			isa = PBXGroup;
+			children = (
+				21C3D4EF1AE7657A00C5502B /* AirportSimulator */,
+				21C3D4EE1AE7657A00C5502B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21C3D4EE1AE7657A00C5502B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21C3D4ED1AE7657A00C5502B /* AirportSimulator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21C3D4EF1AE7657A00C5502B /* AirportSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				21C3D4F91AE765D500C5502B /* main.c */,
+				21C3D4FB1AE765D500C5502B /* simlib.c */,
+				21C3D4FC1AE765D500C5502B /* simlib.h */,
+				21C3D4FD1AE765D500C5502B /* simlibdefs.h */,
+			);
+			path = AirportSimulator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21C3D4EC1AE7657A00C5502B /* AirportSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21C3D4F41AE7657A00C5502B /* Build configuration list for PBXNativeTarget "AirportSimulator" */;
+			buildPhases = (
+				21C3D4E91AE7657A00C5502B /* Sources */,
+				21C3D4EA1AE7657A00C5502B /* Frameworks */,
+				21C3D4EB1AE7657A00C5502B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirportSimulator;
+			productName = AirportSimulator;
+			productReference = 21C3D4ED1AE7657A00C5502B /* AirportSimulator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21C3D4E51AE7657A00C5502B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Guilherme Brunow Gomes";
+				TargetAttributes = {
+					21C3D4EC1AE7657A00C5502B = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 21C3D4E81AE7657A00C5502B /* Build configuration list for PBXProject "AirportSimulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 21C3D4E41AE7657A00C5502B;
+			productRefGroup = 21C3D4EE1AE7657A00C5502B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21C3D4EC1AE7657A00C5502B /* AirportSimulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21C3D4E91AE7657A00C5502B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C3D5001AE765D500C5502B /* simlib.c in Sources */,
+				21C3D4FF1AE765D500C5502B /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		21C3D4F21AE7657A00C5502B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		21C3D4F31AE7657A00C5502B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		21C3D4F51AE7657A00C5502B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21C3D4F61AE7657A00C5502B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21C3D4E81AE7657A00C5502B /* Build configuration list for PBXProject "AirportSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21C3D4F21AE7657A00C5502B /* Debug */,
+				21C3D4F31AE7657A00C5502B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21C3D4F41AE7657A00C5502B /* Build configuration list for PBXNativeTarget "AirportSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21C3D4F51AE7657A00C5502B /* Debug */,
+				21C3D4F61AE7657A00C5502B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21C3D4E51AE7657A00C5502B /* Project object */;
+}
